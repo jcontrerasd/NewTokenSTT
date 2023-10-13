@@ -25,7 +25,7 @@ El contrato crea un token ERC20 llamado SwapTrustToken (STT). El contrato puede 
 
 ### Read Contract ###
 
-    **1. DOMAIN_SEPARATOR :** Devuelve el separador de dominio utilizado en la codificación de la firma del permiso, según lo definido por EIP712.
+   <span style="color: red;">1. DOMAIN_SEPARATOR : </span> Devuelve el separador de dominio utilizado en la codificación de la firma del permiso, según lo definido por EIP712.
     
     **2. allowance :** Devuelve el número restante de tokens que el gastador podrá gastar en nombre del propietario a través de **transferFrom**. Es cero por defecto.
     
