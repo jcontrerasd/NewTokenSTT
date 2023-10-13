@@ -14,8 +14,13 @@ Cada STT representa un valor y una confianza en los intercambios dentro de la co
 Facilita transacciones sin problemas y ayuda a mantener un registro transparente de todas las actividades comerciales dentro de la comunidad.
 
 
+
+
+
+
+
 # Se crean dos contratos
-### 1.- NewTokenSTT ###
+### 1.- NewTokenSTT (Address [0xcd8ef8649049133c6a164ceaaabfc5ca0027df59](https://goerli.etherscan.io/address/0xcd8ef8649049133c6a164ceaaabfc5ca0027df59#code)) ###
 
 El contrato crea un token ERC20 llamado SwapTrustToken (STT). El contrato puede ser utilizado para crear nuevos tokens, establecer un nuevo propietario para el contrato y en crear fondos para dicho contrato.
  El propietario del contrato es la única dirección que puede realizar estas acciones.
@@ -24,15 +29,15 @@ El contrato crea un token ERC20 llamado SwapTrustToken (STT). El contrato puede 
 
     **1. DOMAIN_SEPARATOR :** Devuelve el separador de dominio utilizado en la codificación de la firma del permiso, según lo definido por EIP712.
     
-    **2. allowance :** Devuelve el número restante de tokens que el gastador podrá gastar en nombre del propietario a través de transferFrom. Esto es cero por defecto.
+    **2. allowance :** Devuelve el número restante de tokens que el gastador podrá gastar en nombre del propietario a través de **transferFrom**. Es cero por defecto.
     
-    **3. balanceOf :** Devuelve el valor de los tokens propiedad de la cuenta.
+    **3. balanceOf :** Devuelve el valor de la cantidad de tokens propiedad de la cuenta.
     
     **4. decimals :** Devuelve los decimales del token.
     
-    **5. eip712Domain :** devuelve los campos y valores que describen el separador de dominio utilizado por este contrato para la firma EIP-712.
+    **5. eip712Domain :** Devuelve los campos y valores que describen el separador de dominio utilizado por este contrato para la firma EIP-712.
     
-    **6. name :** Devuelve el nombre del token
+    **6. name :** Devuelve el nombre del token.
     
     **7. nonces :** Devuelve el nonce actual del propietario. Este valor debe incluirse siempre que se genere una firma para el permiso.
     
@@ -44,7 +49,7 @@ El contrato crea un token ERC20 llamado SwapTrustToken (STT). El contrato puede 
 
 ### Write Contract ###
 
-    **1. approve :** Establece una cantidad de valor de tokens como la asignación del gastador sobre los tokens de la persona que llama. Devuelve un valor booleano que indica si la operación se realizó correctamente.
+    **1. approve :** Establece una cantidad de valor de tokens como la asignación del gastador sobre los tokens de la persona que llama. 
     
     **2. mint :** Crea una cantidad de tokens y los asigna a la cuenta.
     
@@ -52,23 +57,26 @@ El contrato crea un token ERC20 llamado SwapTrustToken (STT). El contrato puede 
     
     **4. setOwner :** Permite asignar un nuevo dueño del contrato.
     
-    **5. transfer :** Mueve una cantidad valiosa de tokens de la cuenta de la persona que llama a. Devuelve un valor booleano que indica si la operación se realizó correctamente.
+    **5. transfer :** Mueve una cantidad de tokens de la cuenta de la persona que llama. 
     
-    **6. transferFrom :** Mueve una cantidad valiosa de tokens de a a usando el mecanismo de asignación. Luego, el valor se deduce de la asignación de la persona que llama
+    **6. transferFrom :** Mueve una cantidad de tokens usando el mecanismo de asignación. Luego, el valor se deduce de la asignación de la persona que llama.
 
 
-### 2.- DEX ###
+### 2.- DEX (Address [0x2fdF5B0f97845Ac859fCEa4838b4125482EC2c48](https://goerli.etherscan.io/address/0x2fdF5B0f97845Ac859fCEa4838b4125482EC2c48#code)) ###
 Corresponde a un exchange descentralizado (DEX) que permite a los usuarios comprar y vender tokens ERC20. En resumen permite comprar y vender tokens ERC20 pagando en ETH.
 
 ### Read Contract ###
 
-    **1. rate :** Entrega el valor de conversión definido  para las compras y ventas
+    **1. rate :** Entrega el valor de conversión definido  para las compras y ventas.
     
     **2. tokenAddress :** Entrega la dirección del dueño del contrato.
 
 ### Write Contract ###
 
-    **1. buy :** Permite realizar compras de Token. Entregando Eth y devolviendo Tokens, según el rate definido.
+    **1. buy :** Permite realizar compras de Token. Se entrega Eth y devuelve Tokens, según el rate definido.
     
-    **2. sell :**  Permite realizar ventas de Token. Entregando Token y devolviendo Eth, según el rate definido.
+    **2. sell :** Permite realizar ventas de Token. Se entrega Token y devuelve Eth, según el rate definido.
 
+### Se envió Tokens a la Addres 0xdE7F9087CfD6B3239E0F5c598847c2009c8FeF33 ([Hash Transacción](https://goerli.etherscan.io/tx/0x594669754b116c46187d4912ff3064d066fb481f6666804edd9b08a56ea7a8a1)) ###
+
+![image](https://github.com/jcontrerasd/NewTokenSTT/assets/27821228/9fd21410-1ba8-428a-9f7b-ba2aac71680d)
