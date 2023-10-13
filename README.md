@@ -1,7 +1,6 @@
 # Creación de una criptomoneda y un Smart Contract que gestione la compra y venta
 
 
-
 **Nombre del Token: SwapTrust Token (STT).**
 Significado: SwapTrust combina las palabras "swap" (intercambio) y "trust" (confianza). 
 Este nombre sugiere que el token se utiliza para respaldar y registrar intercambios confiables entre los miembros de una comunidad comercial.
