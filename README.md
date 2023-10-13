@@ -44,5 +44,9 @@ El contrato crea un token ERC20 llamado SwapTrustToken (STT). El contrato puede 
 ### 2.- DEX ###
 
 #Read Contract#
+1. rate
+2. tokenAddress
 
 #Write Contract#
+1. buy
+2. sell
