@@ -1,52 +1,31 @@
-# STT
-Smart Contract de introducción y lectura de datos, dentro de un proyecto Truffle con despliegue configurado.
+# Creación de una criptomoneda y un Smart Contract que gestione la compra y venta
 
-El contrato consta de 4 funciones, 
+
+## **Nombre del Token: SwapTrust Token (STT).**
+
+**Significado:** SwapTrust combina las palabras "swap" (intercambio) y "trust" (confianza). 
+Este nombre sugiere que el token se utiliza para respaldar y registrar intercambios confiables entre los miembros de una comunidad comercial.
+Descripción: El SwapTrust Token (STT) es la moneda digital que respalda la economía colaborativa en de una comunidad de emprendedores.
+Este token se utilizará para registrar y facilitar intercambios confiables de productos y servicios entre emprendedores A y B.
+
+**Propósito:** El propósito principal del SwapTrust Token (STT) es servir como una unidad de intercambio confiable que respalda las actividades de trueque y colaboración entre los miembros de la comunidad de emprendedores y sus clientes.
+Facilita transacciones sin problemas y ayuda a mantener un registro transparente de todas las actividades comerciales dentro de la comunidad.
+
+
+**Ejemplo :** Si un cliente quiere devolver un Producto de un emprendedor A y comprar a un emprendedor B, el STT sería la moneda que permitiría realizar estas transacciones de manera eficiente y confiable. 
+Cada STT representa un valor y una confianza en los intercambios dentro de la comunidad.
+
+
+
+# Se crean dos contratos
+ 1.- NewTokenSTT
 
 #Read Contract#
 
- 1.- obtenerBalance : Permite obtener el saldo de una cuenta especifica.
- 
- 2.- owner : Indica quien es el dueño del contrato.
-
 #Write Contract#
 
- 1.- setOwner : Permite transferir la propiedad del contrato a otra cuenta.
- 
- 2.- transferFunds : Permite transferir eth desde la cuenta owner del contrato a otra que se defina.
+ 2.- DEX 
 
+#Read Contract#
 
-## Truffle Guide
-
-#### Installation
-```sh
-npm install -g truffle
-npm install
-```
-
-# PASO 1.- Modificación de Archivo de Configuración 
-## Archivo .env
-
-YOUR_PRIVATE_KEY_WALLET_ADDRESS, este dato se debe obtener de la cuenta que se utilizara para desplegar el contrato.
-YOUR_ETHERSCAN_API_KEY, esta clave se puede obtener creandose una cuenta en https://etherscan.io/, la clave la puede usar por ejemplo, en Remix.
-
-
-# PASO 2.- Deployment
-```sh
-Dentro del directorio Truffle-Sprint1-main, ejecutar los siguientes comandos 
-## truffle compile
-
-#### el valos de la de TU_RED, lo encuentras en truffle-config.js, este contrato fue probado en ethereum_goerli_testnet
- ## truffle migrate --network TU_RED
-```
-
-# PASO 3.- Verification
-```sh
-DEPLOYED_CONTRACT_ADDRESS, es entregado como resultado del paso anterior, hay que considerar la dirección del contrato billetera2billetera y no el Migrations.
-EJ: contract address:  0x71bd6306B0f72f945eDb55C17EE4d57382aF19B6.
-Con este paso queda verificado el contrato.
-Esto también es posible realizar desde goerli.etherscan.io encontrando el contraro y siguiendo los pasos y teniendo con el codigó original del contrato.
-
-## truffle run verify billetera2billetera@DEPLOYED_CONTRACT_ADDRESS --network TU_RED
-```
-
+#Write Contract#
