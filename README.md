@@ -15,10 +15,6 @@ Facilita transacciones sin problemas y ayuda a mantener un registro transparente
 
 
 
-
-
-
-
 # Se crean dos contratos
 ### 1.- NewTokenSTT (Address [0xcd8ef8649049133c6a164ceaaabfc5ca0027df59](https://goerli.etherscan.io/address/0xcd8ef8649049133c6a164ceaaabfc5ca0027df59#code)) ###
 
