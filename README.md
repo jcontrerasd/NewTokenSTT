@@ -20,6 +20,8 @@ Facilita transacciones sin problemas y ayuda a mantener un registro transparente
 
 El contrato crea un token ERC20 llamado SwapTrustToken (STT). El contrato puede ser utilizado para crear nuevos tokens, establecer un nuevo propietario para el contrato y en crear fondos para dicho contrato.
  El propietario del contrato es la única dirección que puede realizar estas acciones.
+ ![image](https://github.com/jcontrerasd/NewTokenSTT/assets/27821228/d688bda3-0afe-4303-92bf-4d5418a5a972)
+
 
 ### Read Contract ###
 
@@ -61,6 +63,9 @@ El contrato crea un token ERC20 llamado SwapTrustToken (STT). El contrato puede 
 ### 2.- DEX (Address [0x2fdF5B0f97845Ac859fCEa4838b4125482EC2c48](https://goerli.etherscan.io/address/0x2fdF5B0f97845Ac859fCEa4838b4125482EC2c48#code)) ###
 Corresponde a un exchange descentralizado (DEX) que permite a los usuarios comprar y vender tokens ERC20. En resumen permite comprar y vender tokens ERC20 pagando en ETH.
 
+
+![image](https://github.com/jcontrerasd/NewTokenSTT/assets/27821228/407e3232-7529-49f2-b84e-305997a43d20)
+
 ### Read Contract ###
 
     **1. rate :** Entrega el valor de conversión definido  para las compras y ventas.
@@ -73,6 +78,9 @@ Corresponde a un exchange descentralizado (DEX) que permite a los usuarios compr
     
     **2. sell :** Permite realizar ventas de Token. Se entrega Token y devuelve Eth, según el rate definido.
 
-### Se envió Tokens a la Addres 0xdE7F9087CfD6B3239E0F5c598847c2009c8FeF33 ([Hash Transacción](https://goerli.etherscan.io/tx/0x594669754b116c46187d4912ff3064d066fb481f6666804edd9b08a56ea7a8a1)) ###
+
+
+### TRANSFERENCIA DE TOKEN : 
+Se envió Tokens a la Addres 0xdE7F9087CfD6B3239E0F5c598847c2009c8FeF33 ([Hash Transacción](https://goerli.etherscan.io/tx/0x594669754b116c46187d4912ff3064d066fb481f6666804edd9b08a56ea7a8a1)) ###
 
 ![image](https://github.com/jcontrerasd/NewTokenSTT/assets/27821228/9fd21410-1ba8-428a-9f7b-ba2aac71680d)
