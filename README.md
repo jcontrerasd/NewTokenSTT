@@ -1,4 +1,4 @@
-# Truffle-Sprint1
+# STT
 Smart Contract de introducción y lectura de datos, dentro de un proyecto Truffle con despliegue configurado.
 
 El contrato consta de 4 funciones, 
