@@ -9,7 +9,7 @@ contract DEX {
     address public tokenAddress;
     uint256 public rate;
 
-// Se le tiene que indicar que Token es que va a negocias, se le debe entregar en el Deploy la Address del Token
+// Se le tiene que indicar que Token es que va a negociar, se le debe entregar en el Deploy la Address del Token
 // Se le debe transferir Token, para que tenga Tokens que intercambiar, desde el contrato del Tokem
 constructor(address _token)  {
     tokenAddress = _token;
