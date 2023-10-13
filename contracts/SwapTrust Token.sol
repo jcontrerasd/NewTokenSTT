@@ -26,7 +26,7 @@ contract SwapTrustToken is ERC20, ERC20Permit {
     address public owner;
 
     constructor() ERC20("SwapTrustToken", "STT") ERC20Permit("SwapTrustToken") {
-        _mint(msg.sender, 100000000 * 10 ** 18);
+        _mint(msg.sender, 1000 * 10 ** 18);
         owner = msg.sender; //Set the owner of the contract. The only address that can register evidences.
     }
 
